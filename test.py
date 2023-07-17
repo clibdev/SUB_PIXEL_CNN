@@ -9,7 +9,7 @@ import os
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input_path', default='./data/meerkat.png')
+parser.add_argument('--input_path', default='./data/meerkat.jpg')
 parser.add_argument('--output_dir', default='./runs')
 parser.add_argument('--model_path', default='./model_epoch_599.pth')
 parser.add_argument('--device', default='cuda', help='cuda or cpu')
