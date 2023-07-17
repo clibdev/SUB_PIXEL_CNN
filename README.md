@@ -17,9 +17,9 @@ pip install -r requirements.txt
 
 # Pretrained models
 
-| Name        | Link                                                                                                                                                                                            |
-|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SubPixelCNN | [PyTorch](https://github.com/clibdev/SUB_PIXEL_CNN/releases/latest/download/model_epoch_599.pth),[ONNX](https://github.com/clibdev/SUB_PIXEL_CNN/releases/latest/download/model_epoch_599.onnx) |
+| Name        | Link                                                                                                                                                                                             |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SubPixelCNN | [PyTorch](https://github.com/clibdev/SUB_PIXEL_CNN/releases/latest/download/model_epoch_599.pth), [ONNX](https://github.com/clibdev/SUB_PIXEL_CNN/releases/latest/download/model_epoch_599.onnx) |
 
 # Inference
 
