@@ -52,7 +52,7 @@ img_y, img_cb, img_cr = img_ycbcr.split()
 
 img_y = transforms.ToTensor()(img_y).unsqueeze_(0)
 
-model = torch.load(opt.model_path).to(device)
+model = torch.load(opt.model_path, weights_only=False).to(device)
 model.eval()
 
 with torch.no_grad():

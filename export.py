@@ -40,7 +40,7 @@ if __name__ == '__main__':
     parser.add_argument('--dynamic', action='store_true', default=False, help='enable dynamic axis in onnx model')
     opt = parser.parse_args()
 
-    model = torch.load(opt.model_path).to(opt.device)
+    model = torch.load(opt.model_path, weights_only=False).to(opt.device)
     model = model.to(opt.device)
     model.eval()
 
